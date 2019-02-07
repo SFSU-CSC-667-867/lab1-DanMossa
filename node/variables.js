@@ -20,7 +20,21 @@ obj.a = 9;
 // For Practice
 
 // declare an object with an object as a property
+const newObject = {
+    y: {
+        a: 'Hello',
+        b: 4,
+        c: 7,
+    }
+};
+
+console.log(newObject);
 
 // delete a property
+delete newObject.y;
+newObject.a = 'p';
+console.log(newObject);
 
 // change a property
+newObject.a = 9;
+console.log(newObject);
